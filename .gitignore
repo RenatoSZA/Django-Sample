@@ -1,0 +1,4 @@
+venv/
+# Outros nomes comuns:
+.venv/
+env/
