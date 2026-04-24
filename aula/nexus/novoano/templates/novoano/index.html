@@ -1,0 +1,25 @@
+{% load static %}
+
+<html>
+
+<head>
+    <title>É ano novo?</title>
+    <link rel="stylesheet" href="{% static 'novoano/styles.css'%}">
+
+</head>
+
+<body>
+
+    {% if anonovo%}
+    <div id="s">
+        <h1> SIM </h1>
+    </div>
+    {%else %}
+    <div id="n">
+        <h1> NÃO </h1>
+    </div>
+    {%endif%}
+
+</body>
+
+</html>
